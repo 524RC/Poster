@@ -1,0 +1,122 @@
+body{
+    background-color:rgb(188, 247, 188);
+    background-image:url(background.jpg)
+}
+.topImage{
+   width:800px;
+   height:300px;
+}
+legend{
+	color:white;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #faa61a;
+}
+h1 {
+	font-size: 2em;
+	margin: 2.2em 0 .1em 0;
+	line-height: 1.3em;
+	font-weight: 200;
+}
+h2 {
+	font-size: .9em;
+	line-height: 1.9em;
+	color: #a2a50d;
+	margin: 0;
+	margin-bottom: .6em;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+p {
+	font-size: 1em;
+	line-height: 1.9em;
+	margin: 0;
+	margin-bottom: .7em;
+	text-align: left;
+}
+.contentWrapper {
+	width: 750px;
+	padding: 0 20px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#signUp {
+	margin-top: 10px;
+	padding: 0 20px 15px 20px;
+	border: 1px solid #fffb00;
+	border-width:1px;
+
+	
+}
+#signUp legend {
+	font-size: 2em;
+	font-weight: 200;
+	padding: 0 .2em;
+}
+#signUp label {
+	display: block;
+	padding-top: 1em;
+}
+#signUp label:first-of-type {
+	margin-top: -.9em;
+}
+#nameLabel {
+	margin-top: -1em;
+}
+#submit, #clearCookie {
+	display: block;
+	font-size: 1em;
+	color: #ffbb00;
+	text-transform: uppercase;
+	background: #fbff01;
+	padding: .8em 1em .7em;
+	border: 0;
+	border-bottom: 3px solid #7d820c;
+	margin-top: 15px;
+}
+.textfield {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	padding: 7px;
+	background: #30fc5c;
+	border: 1px solid #fffb00;
+	width: 97%;
+	
+}
+.textfield:focus {
+	background: #ffee05;
+}
+.subtitle{
+	color:white;	
+}
+.info{
+	color:#fffb00;
+	font-size:22px;
+	font-family:Papyrus;
+	
+}
+.infoBox{
+	font-size: 14px;
+	padding: 7px;
+	margin:10px;
+	border: 1px solid #fffb00;
+	width: 97%;
+	height:97%;
+	background-color: #7d820c;
+	border-radius: 30px;
+}
+
+.lottery{
+	width:250px;
+	height:250px;
+	
+}
+.title{
+	color:#fffb00;
+	font-size:22px;
+	font-family:copperplate;
+}
